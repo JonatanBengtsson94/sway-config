@@ -49,3 +49,20 @@ button {
 #workspaces {
   margin: 0 4px;
 }
+
+#battery {
+  margin-right: 10px;
+}
+
+#battery.warning:not(.charging) {
+  color: #ffff00;
+}
+
+#battery.critical:not(.charging) {
+  color: #ff0000;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
