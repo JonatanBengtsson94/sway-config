@@ -1,0 +1,33 @@
+* {
+  border-radius: 4px;
+}
+
+window {
+  border: 2px solid white;
+  font-size: 14px;
+  font-family: "MesloLGS Nerd Font";
+  background-color: #1a1b26;
+  color: #a9b1d6;
+}
+
+#entry:selected {
+  background-color: rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+#text:selected {
+  color: #7dcfff;
+}
+
+#input {
+  color: white;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+}
+
+#input:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+}
